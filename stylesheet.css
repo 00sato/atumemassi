@@ -1,0 +1,39 @@
+@charset "utf-8";
+html{
+    height: 100%;
+}
+body{
+    font-family: "Avenir Next";
+    background-color: rgb(185, 248, 184);
+    min-height: 100%;
+}
+
+h1 {
+    font-size:55px;
+    text-align:center;   
+}
+
+.header{
+    height: 100px;
+}
+
+.main{
+    
+    height: 1300px;
+    padding: 20px;
+    text-align: center;
+    
+    #stamp {
+        margin:auto;
+        height: 2000;
+        width: 100%;
+        table-layout: fixed;  
+    }
+}
+
+.footer{
+    background-color: rgb(243, 248, 246);
+    height: 100px;
+    width: 100%;
+    
+}
