@@ -51,14 +51,11 @@ h1 {
 
 @media screen and (max-width:480px) {　/*　画面サイズが480px以下の場合*/
     h2{
-        font-size:60px;
+        font-size:30px;
         text-align:center; 
     }
-    #stamp {
-        margin:auto;
-        height: 500px;
+    img{
+        height: 50px;
         width: 100%;
-        table-layout: fixed;  
-
     }
 }
