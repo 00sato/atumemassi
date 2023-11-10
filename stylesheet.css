@@ -54,4 +54,11 @@ h1 {
         font-size:60px;
         text-align:center; 
     }
+    #stamp {
+        margin:auto;
+        height: 1000px;
+        width: 100%;
+        table-layout: fixed;  
+
+    }
 }
