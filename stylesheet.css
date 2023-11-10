@@ -59,8 +59,7 @@ h1 {
         width: 100%;
     }
     #stamp {
-        margin:auto;
-        
+        margin:auto;        
         width: 100%;
         table-layout: fixed;
 }
