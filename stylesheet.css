@@ -2,6 +2,7 @@
 html{
     height: 100%;
 }
+
 *{
     float:none;
     position: static;
@@ -35,7 +36,7 @@ h1 {
     #stamp {
         margin:auto;
         height: 100%;
-        width: 500px;
+        width: 100%;
         table-layout: fixed;  
 
     }
@@ -46,4 +47,11 @@ h1 {
     height: 100px;
     width: 100%;
     
+}
+
+@media screen and (max-width:480px) {　/*　画面サイズが480px以下の場合*/
+    h2{
+        font-size:60px;
+        text-align:center; 
+    }
 }
