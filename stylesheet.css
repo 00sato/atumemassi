@@ -22,11 +22,6 @@ h1 {
     font-size:100px;
     text-align:center;   
 }
-h2{
-        font-size:30px;
-        text-align:center; 
-}
-
 .header{
     height: 100px;
 }
@@ -59,7 +54,7 @@ h2{
         text-align:center; 
     }
     img{
-        height: 50px;
+        height: 50%;
         width: 100%;
     }
     #stamp {
