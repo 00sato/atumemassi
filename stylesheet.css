@@ -22,9 +22,17 @@ h1 {
 }
 
 .main{
-    
-    height: 100%;
-    text-align: center;
+    p{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        padding:0;
+        margin:0;
+        font-size:30px;
+        height: 100%;
+        text-align: center;
+    }
     
     #stamp {
         margin:auto;
