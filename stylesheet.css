@@ -3,10 +3,6 @@ html{
     height: 100%;
 }
 
-*{
-    float:none;
-    position: static;
-}
 body{
     font-family: "Avenir Next";
     min-height: 100%;
@@ -15,12 +11,14 @@ body{
 .header{
     height: 100px;
 }
+
 h1 {
     font-size:50px;
     text-align:center;   
 }
 
-.main{    
+.main{
+    
     height: 100%;
     text-align: center;
 }
@@ -53,11 +51,4 @@ h1 {
 .footer{
     height: 100px;
     width: 100%;
-}
-
-@media screen and (max-width:480px) {
-    h1{
-        font-size:50px;
-    }
-
 }
