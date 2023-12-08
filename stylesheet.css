@@ -9,7 +9,6 @@ html{
 }
 body{
     font-family: "Avenir Next";
-    background-color: rgb(103, 202, 248);
     min-height: 100%;
 }
 
@@ -22,28 +21,36 @@ h1 {
 }
 
 .main{
-    p{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        padding:0;
-        margin:0;
-        font-size:30px;
-    }
-        height: 100%;
-        text-align: center;   
-    #stamp {
-        margin:auto;
-        height: 100%;
-        width: 100%;
-        table-layout: fixed;  
+    
+    height: 100%;
+    text-align: center;
+}
 
-    }
+#stamp {
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;  
+}
+
+.main a{
+    position: arelative;
+    bottom:20px;
+    left:0px;
+    padding:0;
+    margin:0;
+    clear: #fff;
+    font-size:15px;
+}
+
+.main img{
+    width:100%;
+    height:50%;
+    opacity: 0.8;
+    display:block;
 }
 
 .footer{
-    background-color: rgb(243, 248, 246);
     height: 100px;
     width: 100%;
 }
