@@ -1,47 +1,64 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>集めまっし金沢ラリー</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+@charset "utf-8";
+html{
+    height: 100%;
+}
 
-    <body>
+*{
+    float:none;
+    position: static;
+}
+body{
+    font-family: "Avenir Next";
+    min-height: 100%;
+}
 
-        <div class="header">
-            <h1>集めまっし金沢ラリー!</h1>
-        </div>
+.header{
+    height: 100px;
+}
+h1 {
+    font-size:50px;
+    text-align:center;   
+}
 
-        <div class="main">
-            <h3>スタンプを集めて景品をもらおう!!</h3>
+.main{
+    
+    height: 100%;
+    text-align: center;
+}
 
-            <button type=“button” onclick="location.href='https://hayashinokanta0506.github.io/kanazawa1/'"> ポイント交換</button>
-            <table id="stamp" cellspacing="10" border="1">
-                <tr> <td><a href="https://www.kanazawa21.jp/"><img src="写真/21世紀.jpg" width="100%" height="50%" align="left" alt="21世紀美術館"><p>21世紀美術館</p></a></td>
-                     <td><a href="https://kazunakashima.gorp.jp/"><img src="写真/kazunakasima.jpeg"  width="100%" height="50%" align="left" alt="Kazunakashima"></a></td>
-                </tr> 
-                <tr> <td><a href="https://ohmicho-ichiba.com/gourmet/shop70401/"><img src="写真/いきいき.jpg" width="100%" height="50%" align="left" alt="いきいき亭"></a></td>
-                     <td><a href="https://www.instagram.com/grill_otsuka/?hl=ja"><img src="写真/オーツカ.jpg" width="100%" height="50%" align="left" alt="グリルオーツカ"></a></td>
-                </tr>  
-                <tr> <td><a href="http://www.oyama-jinja.or.jp/"><img src="写真/おやま.jpg" width="100%" height="50%" align="left" alt="尾山神社"></a></td>
-                     <td><a href="https://www.kanazawabiyori.com/special/oden/2022/10/54835.html"><img src="写真/きくいち.jpg" width="100%" height="50%" align="left" alt="菊一"></a></td>
-                </tr>
-                <tr> <td><a href="https://kenrokuen.or.jp/"><img src="写真/けんろく.jpg" width="100%" height="50%" align="left" alt="兼六園"></a></td>
-                     <td><a href="https://kanazawa.hakuichi.co.jp/"><img src="写真/はくいち.jpg" width="100%" height="50%" align="left" alt="箔一"></a></td>
-                </tr>
-                <tr> <td><a href="https://tabelog.com/ishikawa/A1701/A170101/17006391/"><img src="写真/ピノ.jpg" width="100%" height="50%" align="left" alt="ピノ"></a></td>
-                     <td><a href="https://ohmicho-ichiba.com/gourmet/shop70701/"><img src="写真/魚旨.jpg" width="100%" height="50%" align="left" alt="魚旨"></a></td>
-                </tr>
-            </table>
-        </div>
+#stamp {
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;  
+}
 
-        <div class="footer">
-            <ul>
-                <li><a href="https://www4.city.kanazawa.lg.jp/index.html">金沢市ホームページ</a></li>
-                <li><a href="https://www.kanazawa-kankoukyoukai.or.jp/">金沢旅物語</a></li>
-            </ul>
-        </div>    
+.main a{
+    position: arelative;
+    bottom:20px;
+    left:0px;
+    padding:0;
+    margin:0;
+    clear: #fff;
+    font-size:15px;
+;
+}
 
-    </body> 
-</html>
+.main img{
+    width:100%;
+    height:50%;
+    opacity: 0.8;
+    display:block;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    h1{
+        font-size:50px;
+    }
+
+}
