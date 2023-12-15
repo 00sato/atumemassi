@@ -9,11 +9,11 @@ body{
 }
 
 .header{
-    height: 60px;
+    height: 150px;
 }
 
 h1 {
-    font-size:30px;
+    font-size:50px;
     text-align:center;
     vertical-align: middle;
 }
