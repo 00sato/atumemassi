@@ -23,6 +23,13 @@ h1 {
     text-align: center;
 }
 
+button{
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    text-align: right;
+}
+
 #stamp {
     margin:auto;
     height: 100%;
